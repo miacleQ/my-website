@@ -271,7 +271,9 @@
 
 	function J() {
 		modal('行，咱们一起看烟花吧~Biu', function () {
-			fireworks();
+			$('.page_one').addClass('hide');
+				$('.page_two').removeClass('hide');
+				typeWrite();
 		});
 	}
 
